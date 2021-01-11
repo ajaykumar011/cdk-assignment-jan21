@@ -1,0 +1,7 @@
+README.md
+setup.py
+codepipeline_to_ecr/codepipeline_to_ecr.egg-info/PKG-INFO
+codepipeline_to_ecr/codepipeline_to_ecr.egg-info/SOURCES.txt
+codepipeline_to_ecr/codepipeline_to_ecr.egg-info/dependency_links.txt
+codepipeline_to_ecr/codepipeline_to_ecr.egg-info/requires.txt
+codepipeline_to_ecr/codepipeline_to_ecr.egg-info/top_level.txt

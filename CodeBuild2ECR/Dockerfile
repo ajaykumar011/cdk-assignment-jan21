@@ -1,0 +1,9 @@
+ARG PYTHON_VERSION=3.7
+
+FROM python:${PYTHON_VERSION}
+
+RUN mkdir /src
+WORKDIR /src
+
+COPY . /src
+

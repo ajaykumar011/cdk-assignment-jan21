@@ -1,0 +1,24 @@
+{
+  "app": "python app.py",
+  "context": {
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true",
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "@aws-cdk/aws-ecr-assets:dockerIgnoreSupport": true,
+    "@aws-cdk/aws-secretsmanager:parseOwnedSecretName": true,
+    "@aws-cdk/aws-kms:defaultKeyPolicies": true,
+    "project":{
+      "tag_value" : "Cloudzone",
+      "region": "us-east-1",
+      "account": "143787628822",
+      "encryption": true,
+      "kms_arn": "aws:kms:us-east-1:143787628822:key/506a4e5c-46de-4f16-8918-b83abfa6dac9",
+      "vpc_cidr": "10.0.0.16",
+      "sns_topic_arn": "arn:aws:sns:us-east-1:143787628822:EmailNotify",
+      "cert_arn": "arn:aws:acm:us-east-1:143787628822:certificate/08e825ed-3796-4cf7-95c9-47154f01d529",
+      "ec2_type": "t2.micro",
+      "key_name": "ajay_key"      
+    }
+   
+  }
+}
